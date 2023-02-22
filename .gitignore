@@ -9,7 +9,7 @@ node_modules
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 /src/routes/contact
-/src/lib/stores
+/src/lib/stores/localStore.ts
 /src/svelte-progress-bar.d.ts
 gpt.txt
 notes.txt

@@ -5,6 +5,10 @@
 	import { createStore, handler } from '$lib/stores/search';
 	import { onDestroy } from 'svelte';
 
+	import type { ActionData } from './$types';
+	import { enhance, type SubmitFunction } from '$app/forms';
+	export let form: ActionData;
+
 	import type { PageData } from './$types';
 	export let data: PageData;
 
@@ -25,10 +29,6 @@
 	onDestroy(() => {
 		unsubscribe();
 	});
-
-	import type { ActionData } from './$types';
-	import { enhance, type SubmitFunction } from '$app/forms';
-	export let form: ActionData;
 
 	let loading = false;
 
