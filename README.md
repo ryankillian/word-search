@@ -4,3 +4,5 @@
 
 - Demo deploed at https://bible-word-search.vercel.app
 
+- Shout out: Hunterbytes for store
+
